@@ -1,3 +1,4 @@
+import './ImageList.css'
 import ImageShow from './ImageShow'
 
 const ImageList = ({ images }) => {
@@ -6,7 +7,7 @@ const ImageList = ({ images }) => {
     })
 
     return (
-        <div>
+        <div className='image-list'>
             {renderImage}
         </div>
     )
