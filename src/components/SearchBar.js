@@ -15,10 +15,10 @@ const SearchBar = ({onSubmit}) => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
+                <h3>Search Term: {item}</h3>
                 <input placeholder="What are you searching for?"
                 onChange={handleSearch}
                 value={item}></input>
-                <div>{item}</div>
             </form>
         </div>
     )

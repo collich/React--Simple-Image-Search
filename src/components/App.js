@@ -6,7 +6,9 @@ const App = () => {
     }
 
     return (
-        <SearchBar onSubmit={handleSubmit}/>
+        <div>
+            <SearchBar onSubmit={handleSubmit}/>
+        </div>
     )
 }
 
